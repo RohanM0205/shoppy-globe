@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 🛍️ ShoppyGlobe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**ShoppyGlobe** is a stylish and responsive e-commerce application built with **React** and **Redux Toolkit**. It allows users to browse products, search by name, manage a shopping cart with real-time quantity updates, and simulate placing an order — all in a modern, intuitive UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧰 Tech Stack
 
-### `npm start`
+| Technology        | Description                          |
+|------------------|--------------------------------------|
+| ⚛️ React         | Component-based frontend library     |
+| 🧠 Redux Toolkit | Predictable state management         |
+| 🔀 React Router  | Client-side routing and 404 handling |
+| 🎨 CSS Variables | Custom theme and responsive design   |
+| 🛒 DummyJSON API | Fake API for product data            |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🔍 **Searchable Product List**
+- 📄 **Detailed Product View**
+- 🛒 **Dynamic Cart Management** (add, remove, adjust quantity)
+- ✅ **Proceed to Buy** with success feedback and cart reset
+- 🚫 **404 Page for Invalid Routes**
+- 🎨 **Modern UI with Themed Styling**
+- 💬 **Interactive header with cart badge update**
+- 📱 **Fully responsive and mobile-friendly design**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔧 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/RohanM0205/shoppy-globe.git
+cd shoppy-globe
+npm install
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📁Project Structure:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+shoppy-globe/
+│
+├── public/                   # Static files
+├── src/
+│   ├── components/           # Reusable UI components
+│   ├── hooks/                # Custom hooks
+│   ├── redux/                # Redux slices
+│   ├── styles/               # CSS modules and theme
+│   ├── App.js                # Main app layout
+│   └── index.js              # App entry point
+├── .gitignore
+├── README.md
+└── package.json
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+🙌 Contribution
+Contributions are welcome! Feel free to fork the repo and submit a pull request for any improvements or ideas.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💡 Acknowledgements
+DummyJSON for providing free product APIs
+Open-source libraries: React, Redux, React Router
