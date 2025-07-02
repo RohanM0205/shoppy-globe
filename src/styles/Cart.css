@@ -1,0 +1,154 @@
+.cart-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--light-bg);
+  }
+  
+  .cart-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-dark);
+  }
+  
+  .empty-text {
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .cart-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .cart-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    border: 2px solid var(--secondary);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+  }
+  
+  .cart-item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .cart-item-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--primary-dark);
+    margin: 0 0 0.25rem;
+  }
+  
+  .cart-item-description {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0;
+    max-width: 600px;
+  }
+  
+  .cart-item-price {
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+  
+  .cart-quantity {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .quantity-button {
+    padding: 6px 14px;
+    font-size: 1.1rem;
+    background: var(--secondary);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .quantity-button:hover {
+    background-color: var(--accent);
+  }
+  
+  .quantity-value {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .remove-button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .proceed-button {
+    margin-top: 2rem;
+    padding: 12px 28px;
+    font-size: 1rem;
+    background-color: var(--accent);
+    color: var(--text-light);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .proceed-button:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .order-success {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary);
+    animation: fadeInOut 5s ease forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  
